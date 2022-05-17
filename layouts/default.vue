@@ -74,6 +74,7 @@ export default {
         color: white;
         font-size: 10px;
         &:not(:last-child){
+          
           margin-right: 16px;
         }
       }
