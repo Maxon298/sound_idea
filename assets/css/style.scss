@@ -1,0 +1,53 @@
+@import './vendor/reset.scss';
+@import './variables.scss';
+
+\*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 1rem;
+}
+
+._container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.wrapper{
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(30, 40, 67, 0.8);
+  backdrop-filter: blur(50px);
+  z-index: 10100;
+  &-light{
+    background: rgba(30, 40, 67, 0.3);
+    backdrop-filter: blur(0);
+  }
+  &-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    overflow: auto;
+  }
+}
+
+body{
+  background: #FFFFFF;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  color: #1E2843;
+}
+
+._row{
+  display: flex;
+
+}
