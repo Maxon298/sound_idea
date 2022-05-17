@@ -63,6 +63,10 @@ export default {
     &__content{
       background: #16162C;
       height: 65px;
+      justify-content: space-between;
+      ._row{
+        align-items: center;
+      }
     }
     &__nav{
       height: 35px;
@@ -74,7 +78,7 @@ export default {
         color: white;
         font-size: 10px;
         &:not(:last-child){
-          
+
           margin-right: 16px;
         }
       }

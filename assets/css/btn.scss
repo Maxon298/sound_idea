@@ -1,0 +1,14 @@
+@import './variables.scss';
+
+.btn{
+  border-radius: 3px;
+  width: 100%;
+  height: 40px;
+  color: white;
+  &_gradientBtn{
+    background: linear-gradient(94.79deg, #BE31E1 14.95%, rgba(255, 255, 255, 0) 85.89%), #2894ED;
+  }
+  &_darkBtn{
+    background: #1F203F;
+  }
+}
