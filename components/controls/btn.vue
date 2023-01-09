@@ -3,7 +3,7 @@
     class="btn"
     :class='setClass'
     :type='type'
-    @click="$emit ('click', $event.target.value)"
+    @click="callback($event)"
 
    >
     {{ name }}
@@ -22,6 +22,11 @@ export default {
     // Btn type
     darkBtn: Boolean,
     gradientBtn: Boolean
+  },
+  methods: {
+    callback: function(e) {
+      this.$emit('click', e);
+    }
   },
   computed: {
     setClass(){

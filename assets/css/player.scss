@@ -1,0 +1,156 @@
+
+.player{
+  width: 370px;
+  height: 135px;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+}
+
+.player_inner{
+  margin: 8px 16.44px;
+  margin-left: 11px;
+}
+
+.player_header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.player_title{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+}
+
+.player_date{
+  font-weight: 700;
+  font-size: 8px;
+  line-height: 10px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.player_controls{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 22px;
+}
+
+.player_timescale{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 283.67px;
+  height: 44px;
+  background: #F4F8FB;
+  box-shadow: inset 0px 4px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+}
+
+.player_timescale_button{
+  margin-left: 4.11px;
+}
+
+.player_timescale_audio{
+  margin-left: 7.19px;
+}
+
+.player_like{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 13.36px;
+  width: 45.22px;
+  height: 44px;
+  background: #F4F8FB;
+  box-shadow: inset 0px 4px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+}
+
+.player_like_like-count{
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.player_footer{
+  margin-top: 20px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.player_author{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.player_author_img{
+  width: 12px;
+  height: 12px;
+}
+
+.player_author_name{
+  margin-left: 3px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  white-space: nowrap;
+
+  color: #1D9BEE;
+}
+
+.player_author_genre{
+  margin-left: 5px;
+  display: flex;
+  align-items: center;
+  width: 53.19px;
+  height: 17px;
+  background: #F4F8FB;
+  box-shadow: inset 0px 4px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+}
+
+.player_author_genre_name{
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 8px;
+  line-height: 10px;
+  color: #9394AF;
+}
+
+.player_related-genres{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.player_related-genres_genre{
+  margin-left: 4.32px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 6px;
+  line-height: 7px;
+
+  color: #9394AF;
+}
+
+
+
+
+
+
+
+
+

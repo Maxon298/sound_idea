@@ -13,7 +13,7 @@
 ._container {
   height: 100%;
   width: 100%;
-  max-width: 1140px;
+  max-width: 1170px;
   margin: 0 auto;
 }
 
@@ -27,7 +27,7 @@
   height: 100%;
   background: rgba(30, 40, 67, 0.8);
   backdrop-filter: blur(50px);
-  z-index: 10100;
+  z-index: 1;
   &-light{
     background: rgba(30, 40, 67, 0.3);
     backdrop-filter: blur(0);
@@ -42,7 +42,7 @@
 }
 
 body{
-  background: #FFFFFF;
+  background: #F4F8FB;
   font-family: 'Montserrat';
   font-weight: 500;
   color: #1E2843;

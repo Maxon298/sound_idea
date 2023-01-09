@@ -159,7 +159,7 @@ export default {
       }
     }
     &__copy{
-      background: #444674;
+      background: $light-blue;
       &-inner{
         height: 35px;
         display: flex;
